@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "cacophony",
+  "version": "${version}",
+  "name": "Cacophony",
+  "description": "TODO",
+  "authors": [
+    {
+      "name": "DenimRed",
+      "contact": {
+        "homepage": "https://github.com/DenimRed"
+      }
+    }
+  ],
+  "contact": {
+    "homepage": "https://github.com/DenimsMods/Cacophony",
+    "sources": "https://github.com/DenimsMods/Cacophony",
+    "issues": "https://github.com/DenimsMods/Cacophony/issues"
+  },
+  "license": "LGPL-3.0-only",
+  "environment": "server",
+  "entrypoints": {
+    "server": ["dev.denimred.cacophony.fabric.CacophonyFabric"]
+  },
+  "mixins": [
+    "cacophony.mixins.json",
+    "cacophony-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": "~1.18.2"
+  }
+}

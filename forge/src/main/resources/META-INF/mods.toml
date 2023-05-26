@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+issueTrackerURL = "https://github.com/DenimsMods/Cacophony/issues"
+license = "LGPL-3.0-only"
+
+[[mods]]
+modId = "cacophony"
+version = "${version}"
+displayName = "Cacophony"
+displayURL = "https://github.com/DenimsMods/Cacophony"
+authors = "DenimRed"
+description = "TODO"
+
+[[dependencies.cacophony]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cacophony]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18,)"
+ordering = "NONE"
+side = "BOTH"
